@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="LayoutXAMLExample.PagesExample.CarouselPageExample">
+    <ContentPage>
+        
+        <StackLayout 
+            BackgroundColor="Yellow"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand"
+            Padding="10">
+            
+            <Label 
+                HorizontalOptions="CenterAndExpand"
+                Text="Pagina 01" 
+                TextColor="Black" />
+        </StackLayout>
+        
+     </ContentPage>
+    
+     <ContentPage>
+        
+        <StackLayout 
+            BackgroundColor="Black"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand"
+            Padding="10">
+            <Label 
+                HorizontalOptions="CenterAndExpand"
+                Text="Pagina 02" 
+                TextColor="Red" />
+        </StackLayout>
+        
+      </ContentPage>
+    
+      <ContentPage>
+        
+        <StackLayout 
+            BackgroundColor="Lime"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand"
+            Padding="10">
+            <Label 
+                HorizontalOptions="CenterAndExpand"
+                Text="Pagina 03" 
+                TextColor="Blue" />
+        </StackLayout>
+        
+    </ContentPage>
+</CarouselPage>
