@@ -17,9 +17,18 @@ namespace LayoutXAMLExample
         {
             InitializeComponent();
 
+            // Exemplo Carrosel
             //MainPage = new CarouselPageExample();
+
+            // Exemplo TabbedPage
+            //MainPage = new TabbedPageExample();
+
+            // Exemplo DetailPage
             MainPage = new MyMasterDetailPageExample();
+
+            // Exemplo NavigationPage
             //MainPage = new NavigationPage(new NavigationPageExampleRaiz());
+
         }
 
         protected override void OnStart()
