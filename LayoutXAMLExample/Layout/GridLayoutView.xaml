@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="LayoutXAMLExample.Layout.GridLayoutView">
+    <ContentPage.Content>
+        
+        <Grid 
+            BackgroundColor="Silver"
+            RowSpacing="0">
+            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="200" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="200" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <StackLayout 
+                Grid.Row="0"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                BackgroundColor="Blue">
+                
+                <Label 
+                    Text="Topo" 
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="CenterAndExpand"
+                    TextColor="Red" />
+                
+            </StackLayout>
+            
+            <ScrollView
+                Grid.Row="1"
+                BackgroundColor="Olive">
+                
+                <Label Text="ahdhacdhsvcdhsvcsvhcsghfgdsvagfasvdhfvdgsfvhsdavfgsvdahgfdsvafghdsavfghasvdfhsvadhfsaahdhacdhsvcdhsvcsvhcsghfgdsvagfasvdhfvdgsfvhsdavfgsvdahgfdsvafghdsavfghasvdfhsvadhfsaahdhacdhsvcdhsvcsvhcsghfgdsvagfasvdhfvdgsfvhsdavfgsvdahgfdsvafghdsavfghasvdfhsvadhfsaahdhacdhsvcdhsvcsvhcsghfgdsvagfasvdhfvdgsfvhsdavfgsvdahgfdsvafghdsavfghasvdfhsvadhfsaahdhacdhsvcdhsvcsvhcsghfgdsvagfasvdhfvdgsfvhsdavfgsvdahgfdsvafghdsavfghasvdfhsvadhfsaahdhacdhsvcdhsvcsvhcsghfgdsvagfasvdhfvdgsfvhsdavfgsvdahgfdsvafghdsavfghasvdfhsvadhfsaahdhacdhsvcdhsvcsvhcsghfgdsvagfasvdhfvdgsfvhsdavfgsvdahgfdsvafghdsavfghasvdfhsvadhfsa" />
+                
+            </ScrollView>
+            
+            <Grid 
+                Grid.Row="2"
+                BackgroundColor="Green">
+                
+                <Label 
+                    Text="Rodapé" 
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="CenterAndExpand"
+                    TextColor="White" />
+                
+            </Grid>
+            
+            
+        </Grid>
+        
+    </ContentPage.Content>
+</ContentPage>

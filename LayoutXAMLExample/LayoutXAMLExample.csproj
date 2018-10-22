@@ -19,5 +19,6 @@
     <Folder Include="PagesExample\" />
     <Folder Include="NavigationPageExample\" />
     <Folder Include="MasterDetailPageExample\" />
+    <Folder Include="Layout\" />
   </ItemGroup>
 </Project>

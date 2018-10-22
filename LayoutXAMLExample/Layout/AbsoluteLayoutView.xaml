@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="LayoutXAMLExample.Layout.AbsoluteLayoutView">
+    <ContentPage.Content>
+        
+         <AbsoluteLayout>
+            
+            <Label 
+                Text="Lista de contatos" 
+                TextColor="#000" 
+                AbsoluteLayout.LayoutBounds="0.1,0.1, 300, 300"
+                AbsoluteLayout.LayoutFlags="PositionProportional" />
+            
+           <Frame 
+                BackgroundColor="Red"
+                CornerRadius="25"  
+                AbsoluteLayout.LayoutBounds="0.9,0.9, 50, 50"
+                AbsoluteLayout.LayoutFlags="PositionProportional" >
+                
+            <Label 
+                Text="+" 
+                TextColor="#FFF" 
+                FontAttributes="Bold"
+                VerticalOptions="Center"
+                HorizontalOptions="Center" />
+                
+           </Frame>
+                      
+                   
+            
+         </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

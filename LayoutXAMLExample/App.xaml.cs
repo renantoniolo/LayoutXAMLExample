@@ -1,4 +1,5 @@
 ﻿using System;
+using LayoutXAMLExample.Layout;
 using LayoutXAMLExample.MasterDetailPageExample;
 using LayoutXAMLExample.NavigationPageExample;
 using LayoutXAMLExample.PagesExample;
@@ -24,7 +25,19 @@ namespace LayoutXAMLExample
             //MainPage = new TabbedPageExample();
 
             // Exemplo DetailPage
-            MainPage = new MyMasterDetailPageExample();
+            //MainPage = new MyMasterDetailPageExample();
+
+            //AbsoluteLayout
+            //MainPage = new AbsoluteLayoutView();
+
+            //RelativeLayout
+            //MainPage = new RelativeLayoutView();
+
+            //GridLayoutView
+            //MainPage = new GridLayoutView();
+
+            // ScroLayoutllView
+            MainPage = new StackLayoutView();
 
             // Exemplo NavigationPage
             //MainPage = new NavigationPage(new NavigationPageExampleRaiz());
