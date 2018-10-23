@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="LayoutXAMLExample.Layout.StackLayoutView">
     <ContentPage.Content>
-        <StackLayout 
+        <StackLayout BackgroundColor="Green"
             Margin="20">
             
             <Label 
@@ -25,12 +25,37 @@
                 Placeholder="Nome do Usuário"
                 HorizontalOptions="FillAndExpand" />
             
+            <StackLayout 
+               Margin="10,20,10,10"
+                HeightRequest="100"
+                BackgroundColor="Blue"
+                Orientation="Horizontal">
+                
             <Button 
-                Margin="10,20,10,10"
+     
                 BackgroundColor="#CCC"
                 HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand"
                 Text="Cadastrar" 
                 TextColor="#000" />
+                
+              <Button 
+     
+                BackgroundColor="#CCC"
+                HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand"
+                Text="Limpar" 
+                TextColor="#000" />
+                
+                
+                </StackLayout>
+            
+            <Label 
+                HorizontalOptions="StartAndExpand"
+                VerticalOptions="EndAndExpand"
+                BackgroundColor="Gray"
+                Text="esqueci minha senha" 
+                TextColor="Black" />
             
         </StackLayout>
     </ContentPage.Content>

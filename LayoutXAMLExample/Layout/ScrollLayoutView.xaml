@@ -1,45 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="LayoutXAMLExample.Layout.ScrollLayoutView">
     <ContentPage.Content>
-         <ScrollView>
+        
+        <StackLayout>
+            <Label 
+                Margin="20"
+                HorizontalOptions="CenterAndExpand" 
+                Text="Lista de aprovados" 
+                FontSize="Large" />
+            
+        <ScrollView 
+            Margin="10">
             
             <StackLayout>
-                
-                <Label Text="babdahjbdhjasbdhashbjdas" />
-                <Label Text="babdahjbdhjasbdhashbjdas" />
-                <Label Text="babdahjbdhjasbdhashbjdas" />
-                <Label Text="babdahjbdhjasbdhashbjdas" />
-                <Label Text="babdahjbdhjasbdhashbjdas" />
-                <Label Text="babdahjbdhjasbdhashbjdas" />
-                <Label Text="babdahjbdhjasbdhashbjdas" />
-                <Label Text="babdahjbdhjasbdhashbjdas" />
-                <Label Text="babdahjbdhjasbdhashbjdas" />
-                <Label Text="babdahjbdhjasbdhashbjdas" />
-                <Label Text="babdahjbdhjasbdhashbjdas" />
-                <Label Text="babdahjbdhjasbdhashbjdas" />
-                <Label Text="babdahjbdhjasbdhashbjdas" />
-                <Label Text="babdahjbdhjasbdhashbjdas" />
-                <Label Text="babdahjbdhjasbdhashbjdas" />
-                <Label Text="babdahjbdhjasbdhashbjdas" />
-                <Label Text="babdahjbdhjasbdhashbjdas" />
-                <Label Text="babdahjbdhjasbdhashbjdas" />
-                <Label Text="babdahjbdhjasbdhashbjdas" />
-                <Label Text="babdahjbdhjasbdhashbjdas" />
-                <Label Text="babdahjbdhjasbdhashbjdas" />
-                <Label Text="babdahjbdhjasbdhashbjdas" />
-                <Label Text="babdahjbdhjasbdhashbjdas" />
-                <Label Text="babdahjbdhjasbdhashbjdas" />
-                <Label Text="babdahjbdhjasbdhashbjdas" />
-                <Label Text="babdahjbdhjasbdhashbjdas" />
-                <Label Text="babdahjbdhjasbdhashbjdas" />
-                <Label Text="babdahjbdhjasbdhashbjdas" />
-                <Label Text="babdahjbdhjasbdhashbjdas" />
-                <Label Text="babdahjbdhjasbdhashbjdas" />
-                <Label Text="babdahjbdhjasbdhashbjdas" />
-                <Label Text="babdahjbdhjasbdhashbjdas" />
-                
+                <Label HeightRequest="30" Text="teste 1234" FontSize="Medium" />
+                <Label HeightRequest="30" Text="teste 1234" FontSize="Medium" />
+                <Label HeightRequest="30" Text="teste 1234" FontSize="Medium" />
+                <Label Text="teste 1234" FontSize="Medium" />
+                <Label Text="teste 1234" FontSize="Medium" />
+                <Label Text="teste 1234" FontSize="Medium" />
+                <Label Text="teste 1234" FontSize="Medium" />
+                <Label Text="teste 1234" FontSize="Medium" />
+                <Label Text="teste 1234" FontSize="Medium" />
+                <Label Text="teste 1234" FontSize="Medium" />
+                <Label Text="teste 1234" FontSize="Medium" />
+                <Label Text="teste 1234" FontSize="Medium" />
+                <Label Text="teste 1234" FontSize="Medium" />
+                <Label Text="teste 1234" FontSize="Medium" />
+                <Label Text="teste 1234" FontSize="Medium" />
+                <Label Text="teste 1234" FontSize="Medium" />
+                <Label Text="teste 1234" FontSize="Medium" />
+                <Label Text="teste 1234" FontSize="Medium" />
+                <Label Text="teste 1234" FontSize="Medium" />
+                <Label Text="teste 1234" FontSize="Medium" />
+                <Label Text="teste 1234" FontSize="Medium" />
+                <Label Text="teste 1234" FontSize="Medium" />
+                <Label Text="teste 1234" FontSize="Medium" />
+                <Label Text="teste 1234" FontSize="Medium" />
+                <Label Text="teste 1234" FontSize="Medium" />
+                <Label Text="teste 1234" FontSize="Medium" />
+                <Label Text="teste 1234" FontSize="Medium" />
+                <Label Text="teste 1234" FontSize="Medium" />
+                <Label Text="teste 1234" FontSize="Medium" />
+                <Label Text="teste 1234" FontSize="Medium" />
+                <Label Text="teste 1234" FontSize="Medium" />
+                <Label Text="teste 1234" FontSize="Medium" />
+                <Label Text="teste 1234" FontSize="Medium" />
             </StackLayout>
-                     
-         </ScrollView>
+            
+        </ScrollView>
+    </StackLayout>
     </ContentPage.Content>
 </ContentPage>

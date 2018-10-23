@@ -20,5 +20,6 @@
     <Folder Include="NavigationPageExample\" />
     <Folder Include="MasterDetailPageExample\" />
     <Folder Include="Layout\" />
+    <Folder Include="Controles\" />
   </ItemGroup>
 </Project>

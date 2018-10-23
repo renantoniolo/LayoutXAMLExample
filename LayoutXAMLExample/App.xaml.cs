@@ -1,4 +1,5 @@
 ﻿using System;
+using LayoutXAMLExample.Controles;
 using LayoutXAMLExample.Layout;
 using LayoutXAMLExample.MasterDetailPageExample;
 using LayoutXAMLExample.NavigationPageExample;
@@ -34,10 +35,10 @@ namespace LayoutXAMLExample
             //MainPage = new RelativeLayoutView();
 
             //GridLayoutView
-            //MainPage = new GridLayoutView();
+            MainPage = new ControlesViewPage();
 
             // ScroLayoutllView
-            MainPage = new StackLayoutView();
+           // MainPage = new ScrollLayoutView();
 
             // Exemplo NavigationPage
             //MainPage = new NavigationPage(new NavigationPageExampleRaiz());

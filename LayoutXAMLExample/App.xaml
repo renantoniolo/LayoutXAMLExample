@@ -1,5 +1,24 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="LayoutXAMLExample.App">
     <Application.Resources>
+        
+        
+    <!-- Cores Primárias -->
+    <Color x:Key="BackgroudApp">#dfd2ab</Color>
+    <Color x:Key="ColorDefault">#37595a</Color>
+
+            <!-- Entry -->
+    <Style x:Key="EntryStyle" TargetType="Entry">
+        <Setter Property="BackgroundColor" Value="{StaticResource ColorDefault}"/>
+        <Setter Property="TextColor" Value="#FFF"/>
+    </Style>
+
+    <!-- Label Default -->
+    <Style x:Key="LabelDefault" TargetType="Label">
+        <Setter Property="TextColor" Value="{StaticResource ColorDefault}"/>
+        <Setter Property="FontSize" Value="Micro" />
+        <Setter Property="FontAttributes" Value="Bold" />
+    </Style>
+        
     </Application.Resources>
 </Application>
