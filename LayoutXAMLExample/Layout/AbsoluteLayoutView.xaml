@@ -15,7 +15,7 @@
            <Frame 
                 BackgroundColor="Red"
                 CornerRadius="25"  
-                AbsoluteLayout.LayoutBounds="0.9,0.9, 50, 50"
+                AbsoluteLayout.LayoutBounds="0.9,0.5, 50, 50"
                 AbsoluteLayout.LayoutFlags="PositionProportional" >
                 
             <Label 

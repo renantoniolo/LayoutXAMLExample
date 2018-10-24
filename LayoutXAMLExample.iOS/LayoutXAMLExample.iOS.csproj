@@ -159,5 +159,8 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\xamarin.png" />
+    <BundleResource Include="Resources\baseline_weekend%401x.png" />
+    <BundleResource Include="Resources\baseline_weekend%402x.png" />
+    <BundleResource Include="Resources\baseline_weekend%403x.png" />
   </ItemGroup>
 </Project>

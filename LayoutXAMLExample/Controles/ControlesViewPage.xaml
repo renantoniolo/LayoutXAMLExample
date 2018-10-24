@@ -3,84 +3,94 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="LayoutXAMLExample.Controles.ControlesViewPage">
     <ContentPage.Content>
-        <StackLayout 
+        
+        <ScrollView 
             BackgroundColor="{StaticResource BackgroudApp}"
             Padding="20">
             
-            <Label
-                x:Name="xLabel"
-                Margin="10"
-                HorizontalOptions="CenterAndExpand"
-                Text=" Olá mundo!" 
-                Style="{StaticResource LabelDefault}" />
+            <StackLayout>
+                
+                <Label
+                    x:Name="xLabel"
+                    Margin="10"
+                    HorizontalOptions="CenterAndExpand"
+                    Text=" Olá mundo!" 
+                    Style="{StaticResource LabelDefault}" />
+
+                <Entry 
+                    x:Name="XEntry"
+                    Margin="10"
+                    Keyboard="Email"
+                    HorizontalOptions="FillAndExpand"
+                    Placeholder="Digite o nome do Usuário" />
+                
+               <Button
+                    Text="Entrar"
+                    Clicked="Handle_Clicked"
+                    Image="baseline_weekend"
+                    BackgroundColor="{StaticResource ColorDefault}" />
+
+                
+                <Switch 
+                    Margin="10"
+                    IsToggled="true" 
+                    x:Name="XCheck"
+                    HorizontalOptions="CenterAndExpand"
+                    Toggled="Handle_Toggled"/>
+
+                <Image 
+                    Margin="10"
+                    Source="xamarin.png"
+                    Aspect="AspectFill"
+                    HorizontalOptions="CenterAndExpand" />
+
+                <Slider 
+                    Margin="10"
+                    x:Name="XSlider" 
+                    Value="5" 
+                    Minimum="0"
+                    Maximum="10" 
+                    ValueChanged="Handle_ValueChanged" />
+                
+
+                <Stepper 
+                    x:Name="XStepper" 
+                    Increment="0.1" 
+                    Value="5"
+                    Minimum="0" 
+                    Maximum="10"
+                    HorizontalOptions="CenterAndExpand" 
+                    ValueChanged="Handle_ValueChanged_1"/>
+
+                <ProgressBar
+                    Margin="10"
+                    ProgressColor="Maroon"
+                    BackgroundColor="Navy"
+                    x:Name="XProgressBar" />
+
+                 <ActivityIndicator 
+                    Margin="10"
+                    x:Name="XActivityIndicator"
+                    Color="Red" 
+                    IsRunning="false"
+                    IsVisible="false"/>
+                
+                 <DatePicker 
+                    Margin="10"
+                    x:Name="XDataPicker"
+                    MinimumDate="01/01/2018" 
+                    MaximumDate="12/31/2018" />
+                
+                 <WebView 
+                    Margin="10"
+                    Source="https://www.google.com"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand"/>
+                
+            </StackLayout>
             
-            <Entry 
-                x:Name="XEntry"
-                Margin="10"
-                HorizontalOptions="FillAndExpand"
-                Placeholder="Digite o nome do Usuário" 
-                Style="{StaticResource EntryStyle}" />
-            
-            <Button
-                Text="Entrar"
-                Clicked="Handle_Clicked"
-                BackgroundColor="{StaticResource ColorDefault}" />
-            
-            <Switch 
-                Margin="10"
-                IsToggled="true" 
-                x:Name="check"
-                HorizontalOptions="CenterAndExpand"
-                Toggled="Handle_Toggled"/>
-            
-            <Image 
-                Margin="10"
-                Source="xamarin.png"
-                Aspect="AspectFit"
-                HorizontalOptions="CenterAndExpand" />
-            
-            <Slider 
-                Margin="10"
-                x:Name="XSlider" 
-                Value="5" 
-                Minimum="0"
-                Maximum="10" 
-                ValueChanged="Handle_ValueChanged" />
-            
-            <Stepper 
-                x:Name="XStepper" 
-                Increment="0.1" 
-                Value="5"
-                Minimum="0" 
-                Maximum="10"
-                HorizontalOptions="CenterAndExpand" 
-                ValueChanged="Handle_ValueChanged_1"/>
-            
-  
-            <ProgressBar
-                Margin="10"
-                x:Name="XProgressBar" />
-            
-             <ActivityIndicator 
-                Margin="10"
-                x:Name="XActivityIndicator"
-                Color="Red" 
-                IsRunning="false"
-                IsVisible="false"/>
-            
-             <DatePicker 
-                Margin="10"
-                x:Name="XDataPicker"
-                MinimumDate="01/01/2018" 
-                MaximumDate="12/31/2018"
-                Date="10/23/2018" />
-            
-             <WebView 
-                Margin="10"
-                Source="http://www.google.com"
-                HorizontalOptions="FillAndExpand"
-                VerticalOptions="FillAndExpand"/>
-            
-        </StackLayout>
+        </ScrollView>
+        
     </ContentPage.Content>
+    
 </ContentPage>

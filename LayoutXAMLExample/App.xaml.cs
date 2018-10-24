@@ -12,7 +12,7 @@ namespace LayoutXAMLExample
 {
     public partial class App : Application
     {
-
+        // guardo minha masterdetailpage p/ ser acessada de onde eu estiver
         public static MasterDetailPage myMasterDetailPage;
 
         public App()
@@ -26,7 +26,7 @@ namespace LayoutXAMLExample
             //MainPage = new TabbedPageExample();
 
             // Exemplo DetailPage
-            //MainPage = new MyMasterDetailPageExample();
+            MainPage = new MyMasterDetailPageExample();
 
             //AbsoluteLayout
             //MainPage = new AbsoluteLayoutView();
@@ -34,8 +34,8 @@ namespace LayoutXAMLExample
             //RelativeLayout
             //MainPage = new RelativeLayoutView();
 
-            //GridLayoutView
-            MainPage = new ControlesViewPage();
+            //ControlesViewPage
+            //MainPage = new ControlesViewPage();
 
             // ScroLayoutllView
            // MainPage = new ScrollLayoutView();

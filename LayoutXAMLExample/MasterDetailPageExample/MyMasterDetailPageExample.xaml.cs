@@ -11,7 +11,6 @@ namespace LayoutXAMLExample.MasterDetailPageExample
         {
             InitializeComponent();
 
-
             // seto minha master page para ser acessada de onde eu estiver
             App.myMasterDetailPage = this;
 
